@@ -11,14 +11,14 @@ const services = [
   { name: "Lead Generation", image: "/images/service1.jpg", link: "https://www.quoreb2b.com/pages/displayAdvertisement" },
   { name: "Content Syndication", image: "/images/service2.png", link: "#" },
   { name: "Account Based Marketing", image: "/images/service3.jpeg", link: "#" },
- { name: "Intent Data Services", image: "/images/service4.webp", link: "/DataSolutions" },
+ { name: "Data Solution", image: "/images/service4.webp", link: "/DataSolutions" },
  { name: "Email Marketing", image: "/images/service5.jpg", link: "#" },
 ];
 
 const solutions = [
-  { name: "B2B Demand Gen", image: "/images/solution1.png", link: "#" },
+  { name: "Content Syndication", image: "/images/solution1.png", link: "/Content-Syndication" },
   { name: "Full Funnel Marketing", image: "/images/solution2.jpg", link: "#" },
-  { name: "Sales Enablement", image: "/images/solution3.jpg", link: "#" },
+  { name: "Sales Qualified Leads", image: "/images/solution3.jpg", link: "/salesqualified" },
   { name: "Partner Marketing", image: "/images/solution4.webp", link: "#" },
 ];
 
