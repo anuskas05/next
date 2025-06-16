@@ -93,7 +93,7 @@ export default function LowNav() {
                 >
                   <div
                     className="w-48 h-36 bg-cover bg-center text-white flex items-end p-3 rounded"
-                    style={{ backgroundImage: `url(${item.image})` }}
+                    style={{ backgroundImage: `url(${item.image}) `}}
                   >
                     <span className="text-white px-2 py-1 text-xs rounded bg-black">
                       {item.name}
