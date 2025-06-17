@@ -82,7 +82,10 @@ export default function LowNav() {
           {/* SOLUTION Dropdown */}
           <div className="relative group">
             <div className="flex items-center text-gray-800 hover:text-teal-500 transition cursor-pointer">
-              SOLUTION <ChevronDownIcon className="w-4 h-4 ml-1" />
+              <Link href="/Solution" className="text-gray-800 hover:text-teal-500 transition">
+                SOLUTION
+              </Link>
+               <ChevronDownIcon className="w-4 h-4 ml-1" />
             </div>
             <div className="absolute top-full left-0 md:left-auto md:right-0 mt-4 bg-white shadow-lg rounded-md p-4 flex gap-4 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               {solutions.map((item, idx) => (

@@ -494,7 +494,7 @@ export default function ContentSyndication() {
               >
                 Definition
                 {isActive('definition') && (
-                  <span className="absolute left-0 -bottom-px h-0.5 w-full bg-emerald-600" />
+                  <span className="absolute left-0 -bottom-px h-0.5 w-full " />
                 )}
               </button>
 
