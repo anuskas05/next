@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import './globals.css';
-
+import Form1 from "../components/Form1";
 import LogoScroll from "@/components/LogoScroll";
 
 
@@ -337,7 +337,7 @@ export default function HomePage() {
           </li>
         </ul>
       </section>
-
+   <Form1 />
       <LogoScroll />
      
     </>

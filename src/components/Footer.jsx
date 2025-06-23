@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -33,7 +34,12 @@ export default function Footer() {
             <li><a href="#" className="hover:text-[#00d8a6] transition">About</a></li>
             <li><a href="#" className="hover:text-[#00d8a6] transition">Terms of use</a></li>
             <li><a href="#" className="hover:text-[#00d8a6] transition">Privacy & Policy</a></li>
-            <li><a href="#" className="hover:text-[#00d8a6] transition">California Do Not Sell My Info</a></li>
+        <li>   
+<Link href="/Form2" className="hover:text-[#00d8a6] transition">
+  California Do Not Sell My Info
+</Link>
+</li>
+
             <li><a href="#" className="hover:text-[#00d8a6] transition">Contact</a></li>
           </ul>
         </div>
